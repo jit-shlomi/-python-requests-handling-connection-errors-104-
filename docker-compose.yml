@@ -1,0 +1,7 @@
+version: "3"
+services:
+  mock-server-for-connection-errors:
+    image: kennethreitz/httpbin
+    ports:
+      - "8083:80"
+    
