@@ -1,7 +1,7 @@
 # Handling connection errors with python code
 We are using the requests module, and we sometimes get connection errors.
 
-This experiment is repeating this post: https://majornetwork.net/2022/04/handling-retries-in-python-requests/
+This experiment is repeating this [post](https://majornetwork.net/2022/04/handling-retries-in-python-requests/)
 
 and uses tcpdump to capture the packets. and wire shark to analyze them.
 
