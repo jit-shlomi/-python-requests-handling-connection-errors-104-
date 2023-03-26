@@ -24,7 +24,7 @@ session = requests.Session()
 session.mount("https://", HTTPAdapter(max_retries=5))
 session.mount("http://", HTTPAdapter(max_retries=5))
 
-session.get("http://httpbin.org/status/104")
+session.get("http://localhost:8083/status/104")
 ```
 
 ### urllib3.util.retry.Retry
@@ -39,7 +39,7 @@ adapter = HTTPAdapter(
 session.mount("http://", adapter)
 session.mount("https://", adapter)
 
-session.get("http://httpbin.org/status/104")
+session.get("http://localhost:8083/status/104")
 ```
 
 # Capturing the packats
