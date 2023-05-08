@@ -42,7 +42,7 @@ session.mount("https://", adapter)
 session.get("http://localhost:8083/status/104")
 ```
 
-# Capturing the packats
+# Capturing the packets
 we can run this command to capture the packets:
 ```bash
 sudo tcpdump port 80 -w capturefile.pcap -v
